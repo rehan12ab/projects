@@ -187,6 +187,7 @@ exit
 do sh start
 
 ```
+![image](https://github.com/user-attachments/assets/187fc602-ebda-4fbd-8a1c-d1237fd4b96a)
 
 
 
@@ -214,6 +215,7 @@ exit
 do sh port-security
 
 ```
+![image](https://github.com/user-attachments/assets/9c7e76b9-bd48-4402-bba3-630220af6277)
 
 
 - ### MARKETING SWITCH FLOOR 2
@@ -240,6 +242,8 @@ exit
 do sh port-security
 
 ```
+![image](https://github.com/user-attachments/assets/ee25fc11-d3b9-43df-919a-0e12e44074ff)
+
 
 - ### ACCOUNTING SWITCH FLOOR 2
 ```bash
@@ -265,6 +269,8 @@ exit
 do sh port-security
 
 ```
+![image](https://github.com/user-attachments/assets/78898838-5258-4996-9190-9e34152f92ec)
+
 
 - ### FINANCE SWITCH FLOOR 2
 ```bash
@@ -286,10 +292,9 @@ switchport port-security violation shutdown
 
 do wr
 exit
-
-
-
 ```
+![image](https://github.com/user-attachments/assets/3782d252-ee72-42bc-899f-6f47aa0cbcd5)
+
 
 - ### LOGISTICS SWITCH FLOOR 3
 ```bash
@@ -315,6 +320,7 @@ exit
 
 
 ```
+![image](https://github.com/user-attachments/assets/cb1bc63c-e6dc-4c83-94f9-ef35eab81705)
 
 
 - ### CUSTOMER SWITCH FLOOR 3
@@ -341,6 +347,7 @@ exit
 
 
 ```
+![image](https://github.com/user-attachments/assets/5d195453-9104-4233-b77c-67fd26756186)
 
 
 - ### GUEST SWITCH FLOOR 3
@@ -364,9 +371,8 @@ switchport port-security violation shutdown
 do wr
 exit
 
-
-
 ```
+![image](https://github.com/user-attachments/assets/bc1eb56f-9cbd-43a8-a60d-441e5b978c8a)
 
 
 - ### ADMIN SWITCH FLOOR 4
@@ -392,6 +398,7 @@ exit
 
 
 ```
+![image](https://github.com/user-attachments/assets/5067b0cd-c8b2-4771-be2a-27e94fc7749e)
 
 - ### ICT SWITCH FLOOR 4
 ```bash
@@ -413,10 +420,8 @@ switchport port-security violation shutdown
 
 do wr
 exit
-
-
-
 ```
+![image](https://github.com/user-attachments/assets/be227af7-580b-4e4c-ad27-95e24ad093be)
 
 - ### SERVER SWITCH FLOOR 4
 ```bash
@@ -438,9 +443,8 @@ switchport port-security violation shutdown
 
 do wr
 exit
-
-
-
 ```
+![image](https://github.com/user-attachments/assets/6057b427-76f8-4935-9486-b29b6c7d1575)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
