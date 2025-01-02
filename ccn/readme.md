@@ -486,6 +486,6 @@ exit
 2. **ICT VLAN 110**: `192.168.12.128/26`
 3. **Server VLAN 120**: `192.168.12.192/26`
 
-
+# Addressing betweeen routers and layer-3 switch
 
 
