@@ -1,4 +1,4 @@
-# 1-NETWORK DIAGRAM:
+![image](https://github.com/user-attachments/assets/1b5e6c5c-b806-4898-b3c9-abb2a2790dd0)# 1-NETWORK DIAGRAM:
 ![image](https://github.com/user-attachments/assets/a7bfc102-26e6-4c04-a2f6-0c61346db6a1)
 
 -----------------------------------------------------------------------------------------------------------
@@ -82,6 +82,19 @@ service password-encryption
 do wr
 
 ```
+
+![image](https://github.com/user-attachments/assets/5aa7b4b4-d7b3-44b2-9055-f490063323da)
+![image](https://github.com/user-attachments/assets/81a69928-e2e2-494a-ab3c-bae660c8779b)
+![image](https://github.com/user-attachments/assets/463097a0-4238-4740-a8a1-63d39c2b6a31)
+![image](https://github.com/user-attachments/assets/bb7eda71-7385-4fc4-a51a-f6b11b519d30)
+
+
+
+
+
+
+
+
 
 
 
