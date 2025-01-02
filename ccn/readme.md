@@ -460,46 +460,32 @@ exit
 ![image](https://github.com/user-attachments/assets/6057b427-76f8-4935-9486-b29b6c7d1575)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-# 4- Subnetting And IP Addressing
+# Subnetting And IP Addressing
 
-### IP addressing of floor 1
+### IP Addressing of Floor 1
 
-1. Management VLAN 10
-- 192.168.10.0/26
-  
-2. Research VLAN 20
-- 192.168.10.64/26
-  
-3. Human Resource VLAN 30
-- 192.168.10.128/26
+1. **Management VLAN 10**: `192.168.10.0/26`
+2. **Research VLAN 20**: `192.168.10.64/26`
+3. **Human Resource VLAN 30**: `192.168.10.128/26`
 
-### IP addressing of floor 2
+### IP Addressing of Floor 2
 
-1. Marketing VLAN 40
--  192.168.11.0/26
-  
-2. Accounting VLAN 50
--  192.168.10.0/26
-  
-3. Finance VLAN 60
-- 192.168.11.64/26
+1. **Marketing VLAN 40**: `192.168.10.192/26`
+2. **Accounting VLAN 50**: `192.168.11.0/26` 
+3. **Finance VLAN 60**: `192.168.11.64/26`
 
- ### IP addressing of floor 3
+### IP Addressing of Floor 3
 
-1. Logistic VLAN 70
-   192.168.11.128/26
-2. Customer VLAN 80
-   192.168.11.192/26
-3. Guest VLAN 90
-   192.168.12.0/26
+1. **Logistic VLAN 70**: `192.168.11.128/26`
+2. **Customer VLAN 80**: `192.168.11.192/26`
+3. **Guest VLAN 90**: `192.168.12.0/26`
 
- ### IP addressing of floor 4
+### IP Addressing of Floor 4
 
-1. Admin VLAN 100
-   192.168.12.64/26
-2. ICT VLAN 110
-   192.168.12.128/26
-3. Server VLAN 120
-   192.168.12.192/26
-   
+1. **Admin VLAN 100**: `192.168.12.64/26`
+2. **ICT VLAN 110**: `192.168.12.128/26`
+3. **Server VLAN 120**: `192.168.12.192/26`
+
+
+
 
