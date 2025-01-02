@@ -4,7 +4,7 @@
 -----------------------------------------------------------------------------------------------------------
 # 2-ALL CONFIGURATIONS(REMAINING NOT DONE YET)
 -----------------------------------------------------------------------------------------------------------
-# 3-FIRST FLOOR
+# 3-FIRST FLOOR (ACCESS LAYER)
 
 - ### MANAGEMENT SWTICH CONFIGURATIONS
 
@@ -50,6 +50,38 @@ do wr
 ![image](https://github.com/user-attachments/assets/c28c182b-672c-40cd-b54c-b8430862b318)
 
 -----------------------------------------------------------------------------------------------------------
+# 4-DISTRIBUTION LAYER MULTI-ROUTER 1
+- ### Now after running commands on first switch just run on all rest 4 switches of layer 3 floor 1 **and also add ssh**
+
+```bash
+en
+config t
+ 
+
+hostname layer-3-sw
+banner motd #This is layer-3-sw #
+
+line console 0
+password 1234
+login 
+exit
+
+ip domain-name hackerssg.net
+username hackerssg password 1234
+crypto key generate rsa
+1024
+line vty 0 15
+login local
+transport input ssh
+exit
+
+no ip domain-lookup
+enable password 1234
+service password-encryption
+
+do wr
+
+```
 
 
 
