@@ -4,6 +4,18 @@
 
 -----------------------------------------------------------------------------------------------------------
 # 2-ALL CONFIGURATIONS(REMAINING NOT DONE YET)
+```console
+- Basic setting to all devices plus ssh on router and 13 switches
+- Vlan assignment plus all access and trunk port
+- switchport security to all 12 switches
+- subnetting and ip addressing
+- ospf on router and 13 switches
+- static ip address to server room devies
+- DHCP server device and configuration
+- Inter VLAN routing on 13 switches plus IP DHCP helper address
+- Wireless networking configuration
+- Verifying & testing configurations
+```
 -----------------------------------------------------------------------------------------------------------
 # 3-FIRST FLOOR (ACCESS LAYER)
 ![image](https://github.com/user-attachments/assets/1b5e6c5c-b806-4898-b3c9-abb2a2790dd0)
