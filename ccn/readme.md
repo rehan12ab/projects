@@ -51,7 +51,7 @@ do wr
 ![image](https://github.com/user-attachments/assets/c28c182b-672c-40cd-b54c-b8430862b318)
 
 -----------------------------------------------------------------------------------------------------------
-# 4-DISTRIBUTION LAYER MULTI-ROUTER 1
+# 4-DISTRIBUTION LAYER MULTI-SWICTH 1
 - ### Now after running commands on first switch just run on all rest 4 switches of layer 3 floor 1 **and also add ssh**
 
 ```bash
@@ -89,6 +89,40 @@ do wr
 ![image](https://github.com/user-attachments/assets/463097a0-4238-4740-a8a1-63d39c2b6a31)
 ![image](https://github.com/user-attachments/assets/bb7eda71-7385-4fc4-a51a-f6b11b519d30)
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 5-CORE LAYER ROUTER 
+- ### Now after running commands on first switch just run on all rest 4 switches of layer 3 floor 1 **and also add ssh**
+
+```bash
+en
+config t
+ 
+
+hostname core-layer-router
+banner motd #This is core-layer-router #
+
+line console 0
+password 1234
+login 
+exit
+
+ip domain-name hackerssg.net
+username hackerssg password 1234
+crypto key generate rsa
+1024
+line vty 0 15
+login local
+transport input ssh
+exit
+
+no ip domain-lookup
+enable password 1234
+service password-encryption
+
+do wr
+
+```
 
 
 
