@@ -124,14 +124,12 @@ do wr
 
 ```
 
+![image](https://github.com/user-attachments/assets/04463b1a-bbd6-4f0f-9793-a88043240000)
+![image](https://github.com/user-attachments/assets/9de25601-f6be-470d-83bd-b703a3e51bea)
+![image](https://github.com/user-attachments/assets/968fc614-fed8-4c57-9dc7-6c825389518b)
+![image](https://github.com/user-attachments/assets/27b8e425-cb88-4db1-ac4e-24b588008e41)
 
-
-
-
-
-
-
-
+----------------------------------------------------------------------------------------------------------------------------------------
 
 
 
