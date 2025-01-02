@@ -134,6 +134,7 @@ do wr
 
 # 6- TRUNKING SWITCH PORT AND ASSIGNING VLAN's 
 
+- ### MANAGEMENT SWITCH FLOOR 1
 ```bash
 int range fa0/1-2
 switchport mode trunk
@@ -162,6 +163,285 @@ do sh start
 
 
 
+- ### RESEARCH SWITCH FLOOR 1
+```bash
+int range fa0/1-2
+switchport mode trunk
 
+vlan 20
+name research
+exit
+
+int range fa0/3-24
+switchport mode access
+switchport access vlan 20
+
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+
+do wr
+exit
+
+do sh start
+
+```
+
+
+
+- ### HR SWITCH FLOOR 1
+```bash
+int range fa0/1-2
+switchport mode trunk
+
+vlan 30
+name human-resource
+exit
+
+int range fa0/3-24
+switchport mode access
+switchport access vlan 30
+
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+
+do wr
+exit
+
+do sh start
+
+```
+
+
+- ### MARKETING SWITCH FLOOR 2
+```bash
+int range fa0/1-2
+switchport mode trunk
+
+vlan 40
+name marketing
+exit
+
+int range fa0/3-24
+switchport mode access
+switchport access vlan 40
+
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+
+do wr
+exit
+
+do sh start
+
+```
+
+- ### ACCOUNTING SWITCH FLOOR 2
+```bash
+int range fa0/1-2
+switchport mode trunk
+
+vlan 50
+name accounting
+exit
+
+int range fa0/3-24
+switchport mode access
+switchport access vlan 50
+
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+
+do wr
+exit
+
+do sh start
+
+```
+
+- ### FINANCE SWITCH FLOOR 2
+```bash
+int range fa0/1-2
+switchport mode trunk
+
+vlan 60
+name finance
+exit
+
+int range fa0/3-24
+switchport mode access
+switchport access vlan 60
+
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+
+do wr
+exit
+
+do sh start
+
+```
+
+- ### LOGISTICS SWITCH FLOOR 3
+```bash
+int range fa0/1-2
+switchport mode trunk
+
+vlan 70
+name logistics
+exit
+
+int range fa0/3-24
+switchport mode access
+switchport access vlan 70
+
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+
+do wr
+exit
+
+do sh start
+
+```
+
+
+- ### CUSTOMER SWITCH FLOOR 3
+```bash
+int range fa0/1-2
+switchport mode trunk
+
+vlan 80
+name customer
+exit
+
+int range fa0/3-24
+switchport mode access
+switchport access vlan 80
+
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+
+do wr
+exit
+
+do sh start
+
+```
+
+
+- ### GUEST SWITCH FLOOR 3
+```bash
+int range fa0/1-2
+switchport mode trunk
+
+vlan 90
+name guest
+exit
+
+int range fa0/3-24
+switchport mode access
+switchport access vlan 90
+
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+
+do wr
+exit
+
+do sh start
+
+```
+
+
+- ### ADMIN SWITCH FLOOR 4
+```bash
+int range fa0/1-2
+switchport mode trunk
+
+vlan 100
+name admin
+exit
+
+int range fa0/3-24
+switchport mode access
+switchport access vlan 100
+
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+
+do wr
+exit
+
+do sh start
+
+```
+
+- ### ICT SWITCH FLOOR 4
+```bash
+int range fa0/1-2
+switchport mode trunk
+
+vlan 110
+name ICT
+exit
+
+int range fa0/3-24
+switchport mode access
+switchport access vlan 110
+
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+
+do wr
+exit
+
+do sh start
+
+```
+
+- ### SERVER SWITCH FLOOR 4
+```bash
+int range fa0/1-2
+switchport mode trunk
+
+vlan 120
+name SERVER-VLANS
+exit
+
+int range fa0/3-24
+switchport mode access
+switchport access vlan 120
+
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+
+do wr
+exit
+
+do sh start
+
+```
 
 
