@@ -132,6 +132,36 @@ do wr
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 
+# 6- TRUNKING SWITCH PORT AND ASSIGNING VLAN's 
+
+```bash
+int range fa0/1-2
+switchport mode trunk
+
+vlan 10
+name management
+exit
+
+int range fa0/3-24
+switchport mode access
+switchport access vlan 10
+
+switchport port-security
+switchport port-security maximum 2
+switchport port-security mac-address sticky
+switchport port-security violation shutdown
+
+do wr
+exit
+
+do sh start
+
+```
+
+![image](https://github.com/user-attachments/assets/d9c061b2-e409-465d-8f3d-53da4cf946b7)
+
+
+
 
 
 
