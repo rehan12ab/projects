@@ -1,11 +1,12 @@
-![image](https://github.com/user-attachments/assets/1b5e6c5c-b806-4898-b3c9-abb2a2790dd0)# 1-NETWORK DIAGRAM:
+
+# 1-NETWORK DIAGRAM:
 ![image](https://github.com/user-attachments/assets/a7bfc102-26e6-4c04-a2f6-0c61346db6a1)
 
 -----------------------------------------------------------------------------------------------------------
 # 2-ALL CONFIGURATIONS(REMAINING NOT DONE YET)
 -----------------------------------------------------------------------------------------------------------
 # 3-FIRST FLOOR (ACCESS LAYER)
-
+![image](https://github.com/user-attachments/assets/1b5e6c5c-b806-4898-b3c9-abb2a2790dd0)
 - ### MANAGEMENT SWTICH CONFIGURATIONS
 
 ![WhatsApp Image 2025-01-02 at 20 59 08_bfaa7370](https://github.com/user-attachments/assets/162a0b36-cacb-4e56-859e-4cf9e7beafa6)
