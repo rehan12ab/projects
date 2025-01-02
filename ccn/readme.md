@@ -211,7 +211,7 @@ switchport port-security violation shutdown
 do wr
 exit
 
-do sh start
+do sh port-security
 
 ```
 
@@ -237,7 +237,7 @@ switchport port-security violation shutdown
 do wr
 exit
 
-do sh start
+do sh port-security
 
 ```
 
@@ -262,7 +262,7 @@ switchport port-security violation shutdown
 do wr
 exit
 
-do sh start
+do sh port-security
 
 ```
 
@@ -287,7 +287,7 @@ switchport port-security violation shutdown
 do wr
 exit
 
-do sh start
+
 
 ```
 
@@ -312,7 +312,7 @@ switchport port-security violation shutdown
 do wr
 exit
 
-do sh start
+
 
 ```
 
@@ -338,7 +338,7 @@ switchport port-security violation shutdown
 do wr
 exit
 
-do sh start
+
 
 ```
 
@@ -364,7 +364,7 @@ switchport port-security violation shutdown
 do wr
 exit
 
-do sh start
+
 
 ```
 
@@ -390,7 +390,6 @@ switchport port-security violation shutdown
 do wr
 exit
 
-do sh start
 
 ```
 
@@ -415,7 +414,7 @@ switchport port-security violation shutdown
 do wr
 exit
 
-do sh start
+
 
 ```
 
@@ -440,7 +439,7 @@ switchport port-security violation shutdown
 do wr
 exit
 
-do sh start
+
 
 ```
 
