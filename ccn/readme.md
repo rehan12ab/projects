@@ -50,8 +50,9 @@ do wr
 ![image](https://github.com/user-attachments/assets/2feaf110-f54a-4791-a340-092f32fe6270)
 ![image](https://github.com/user-attachments/assets/c28c182b-672c-40cd-b54c-b8430862b318)
 
+# REAL TASK START
 -----------------------------------------------------------------------------------------------------------
-# 4-DISTRIBUTION LAYER MULTI-SWICTH 1
+# 1-DISTRIBUTION LAYER MULTI-SWICTH 1
 - ### Now after running commands on first switch just run on all rest 4 switches of layer 3 floor 1 **and also add ssh**
 
 ```bash
@@ -132,7 +133,7 @@ do wr
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 
-# 6- TRUNKING SWITCH PORT AND ASSIGNING VLAN's 
+# 2&3- TRUNKING SWITCH PORT AND ASSIGNING VLAN's 
 
 - ### MANAGEMENT SWITCH FLOOR 1
 ```bash
@@ -447,4 +448,4 @@ exit
 ![image](https://github.com/user-attachments/assets/6057b427-76f8-4935-9486-b29b6c7d1575)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-
+# 4- Subnetting And IP Addressing
