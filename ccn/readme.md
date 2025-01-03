@@ -663,5 +663,82 @@ do wr
 ![image](https://github.com/user-attachments/assets/865bb2a6-2d36-4f86-9812-8e57b386189d)
 
 
+-------------------------------------------------------------------------------------------------
+## SECOND OSPF APPLY ON LAYER 3 SWITCHES ALSO  FOR ADVERSTISING ALL NETWORKS on LAYER 3 SWITHC OF FLOOR 1
 
-## SECOND OSPF APPLY ON LAYER 3 SWITCHES
+
+- ### FLOOR 1 LAYER 3 SWITCH
+```bash
+ip routing
+router ospf 10
+network 10.10.10.0 0.0.0.3 area 0
+network 10.10.10.8 0.0.0.3 area 0
+
+network 192.168.10.0 0.0.0.63 area 0
+network 192.168.10.64 0.0.0.63 area 0
+network 192.168.10.128 0.0.0.63 area 0
+network 192.168.10.192 0.0.0.63 area 0
+network 192.168.11.0 0.0.0.63 area 0
+network 192.168.11.64 0.0.0.63 area 0
+```
+![image](https://github.com/user-attachments/assets/c99f466a-4b51-4830-8387-5f5a6b95d9c2)
+
+![image](https://github.com/user-attachments/assets/9a513d68-7ce3-4db5-b8ca-04cc9e6c9013)
+
+- ### FLOOR 2 LAYER 3 SWITCH
+```bash
+ip routing
+router ospf 10
+network 10.10.10.12 0.0.0.3 area 0
+network 10.10.10.4 0.0.0.3 area 0
+
+network 192.168.10.0 0.0.0.63 area 0
+network 192.168.10.64 0.0.0.63 area 0
+network 192.168.10.128 0.0.0.63 area 0
+network 192.168.10.192 0.0.0.63 area 0
+network 192.168.11.0 0.0.0.63 area 0
+network 192.168.11.64 0.0.0.63 area 0
+do wr
+```
+
+![image](https://github.com/user-attachments/assets/a8f3f40f-ee97-408b-84e9-d26019cc173d)
+
+
+- ### FLOOR 3 LAYER 3 SWITCH
+```bash
+ip routing
+router ospf 10
+network 10.10.10.42 0.0.0.3 area 0
+network 10.10.10.40 0.0.0.3 area 0
+
+network 192.168.11.128 0.0.0.63 area 0
+network 192.168.11.192 0.0.0.63 area 0
+network 192.168.12.0 0.0.0.63 area 0
+network 192.168.12.64 0.0.0.63 area 0
+network 192.168.12.128 0.0.0.63 area 0
+network 192.168.12.192 0.0.0.63 area 0
+do wr
+```
+
+![image](https://github.com/user-attachments/assets/b2385fd3-a010-49d4-9496-b066cd241f5b)
+
+
+- ### FLOOR 4 LAYER 3 SWITCH
+```bash
+ip routing
+router ospf 10
+network 10.10.10.52 0.0.0.3 area 0
+network 10.10.10.48 0.0.0.3 area 0
+
+network 192.168.11.128 0.0.0.63 area 0
+network 192.168.11.192 0.0.0.63 area 0
+network 192.168.12.0 0.0.0.63 area 0
+network 192.168.12.64 0.0.0.63 area 0
+network 192.168.12.128 0.0.0.63 area 0
+network 192.168.12.192 0.0.0.63 area 0
+do wr
+```
+![image](https://github.com/user-attachments/assets/1ae22be6-ee18-47a2-9293-f51b93951b12)
+
+
+
