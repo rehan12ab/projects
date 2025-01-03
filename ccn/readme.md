@@ -742,3 +742,72 @@ do wr
 
 
 
+--------------------------------------------------------------------------------------------
+# 6- STATIC IP ADDRESS TO SERVER ROOM DEVICES (STATICALLY ASSIGN IP FROM DHCP SERVER)
+
+- ### DHC SERVER IP CONFIGURATION
+
+![image](https://github.com/user-attachments/assets/5fe52895-0a85-438f-adad-e53129ff92db)
+
+- ### EMAIL SERVER
+
+![image](https://github.com/user-attachments/assets/4441de54-706f-4a3b-b520-1453a6d9e6f7)
+
+- ### HTTPS SERVER
+
+![image](https://github.com/user-attachments/assets/7ed6afd3-b4be-45f3-9d4b-e0381c84f2b7)
+
+--------------------------------------------------------------------------------------------
+# 7- DHCP SERVER DEVICE AND CONFIGURATION
+
+- ### MANAGEMENT POOL (F1)
+![image](https://github.com/user-attachments/assets/52d135f4-3184-4ca2-a4ec-b60e9296ac96)
+
+
+- ### RESEARCH POOL (F1)
+![image](https://github.com/user-attachments/assets/5639ddd9-aba3-4cbe-83de-817b81fee756)
+
+
+- ### HR POOL (F1)
+![image](https://github.com/user-attachments/assets/3fec0c01-9fa9-49ea-8538-f4e4d5d9f699)
+
+
+ 
+- ### MARKETING  POOL (F2)
+![image](https://github.com/user-attachments/assets/8fb9c3d1-e29e-413a-823a-0508a96e16a7)
+
+
+  
+- ### ACCOUNTING POOL (F2)
+![image](https://github.com/user-attachments/assets/186f5e9d-09ac-4f54-8eb1-b20ef31cf331)
+
+
+ 
+- ### FINANCE POOL (F2)
+![image](https://github.com/user-attachments/assets/a07385c2-f822-408c-9843-061e83c787f4)
+
+  
+- ### LOGISTIC POOL (F3)
+![image](https://github.com/user-attachments/assets/4464b234-f17c-4b74-96da-91f53a45640a)
+
+  
+- ### CUSTOMER POOL (F3)
+![image](https://github.com/user-attachments/assets/5d8ad793-08fe-4d3a-80e9-0c23173c1048)
+
+
+- ### GUEST POOL (F3)
+![image](https://github.com/user-attachments/assets/cf8334ff-f8e9-4c24-85f2-176412f9de52)
+
+  
+- ### ADMIN POOL (F4)
+![image](https://github.com/user-attachments/assets/a7c744e5-71e7-4770-ad1b-423c3765322e)
+
+ 
+- ### ICT  POOL (F4)
+
+![image](https://github.com/user-attachments/assets/f26c771b-5f0a-453b-9a1c-5232489d609e)
+
+
+--------------------------------------------------------------------------------------------
+# 8- Inter VLAN routing on 13 switches plus IP DHCP helper address
+
