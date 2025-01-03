@@ -596,7 +596,72 @@ exit
 ![image](https://github.com/user-attachments/assets/fe11b4f5-7cc8-4dc2-a26c-5df94adbe595)
 
 
+----------------------------------------------------------------------------------------------------------------------------
+
+# 5-OSPF ON THE ROUTERS AND LAYER3 SWITCHES
+
+## FIRST OSPF ON ROUTERS
+
+- ### CONFIGURING ALL PATH ON ROUTER OF FLOOR 1
+
+```bash
+router ospf 10
+
+network 10.10.10.0 0.0.0.3 area 0
+network 10.10.10.4 0.0.0.3 area 0
+network 10.10.10.16 0.0.0.3 area 0
+network 10.10.10.28 0.0.0.3 area 0
+network 10.10.10.32 0.0.0.3 area 0
+exit
+do wr
+```
+![image](https://github.com/user-attachments/assets/83b7a791-9509-47b9-8719-b6b2a33ae16f)
+
+- ### CONFIGURING ALL PATH ON ROUTER OF FLOOR 2
+
+```bash
+router ospf 10
+
+network 10.10.10.12 0.0.0.3 area 0
+network 10.10.10.8 0.0.0.3 area 0
+network 10.10.10.16 0.0.0.3 area 0
+network 10.10.10.20 0.0.0.3 area 0
+network 10.10.10.24 0.0.0.3 area 0
+exit
+do wr
+```
+![image](https://github.com/user-attachments/assets/e9662acd-72f8-4a5b-a1b3-a1a24949aaa2)
+
+- ### CONFIGURING ALL PATH ON ROUTER OF FLOOR 3
+
+```bash
+router ospf 10
+
+network 10.10.10.32 0.0.0.3 area 0
+network 10.10.10.20 0.0.0.3 area 0
+network 10.10.10.36 0.0.0.3 area 0
+network 10.10.10.48 0.0.0.3 area 0
+network 10.10.10.40 0.0.0.3 area 0
+exit
+do wr
+```
+![image](https://github.com/user-attachments/assets/928afb36-351e-4012-8294-529dceb51ebf)
+
+- ### CONFIGURING ALL PATH ON ROUTER OF FLOOR 4
+
+```bash
+router ospf 10
+
+network 10.10.10.24 0.0.0.3 area 0
+network 10.10.10.28 0.0.0.3 area 0
+network 10.10.10.36 0.0.0.3 area 0
+network 10.10.10.44 0.0.0.3 area 0
+network 10.10.10.52 0.0.0.3 area 0
+exit
+do wr
+```
+![image](https://github.com/user-attachments/assets/865bb2a6-2d36-4f86-9812-8e57b386189d)
 
 
-   
 
+## SECOND OSPF APPLY ON LAYER 3 SWITCHES
