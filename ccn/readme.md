@@ -490,10 +490,10 @@ exit
 ![WhatsApp Image 2025-01-03 at 09 03 38_cff4e067](https://github.com/user-attachments/assets/7d3317c0-e114-49dc-90a0-ad90452b07a1)
 
 
-
-
 # Addressing betweeen routers and layer-3 switch
 ![WhatsApp Image 2025-01-03 at 09 03 38_8a38796f](https://github.com/user-attachments/assets/d08074d5-7c2b-4e80-8641-12181656dd58)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 # Trunking layer 3 switches
 
@@ -503,6 +503,13 @@ switchport mode trunk
 exit
 do wr
 ```
+
+![image](https://github.com/user-attachments/assets/58541e04-b0df-4f92-a89d-a23d66fa02af)
+![image](https://github.com/user-attachments/assets/8007c461-a307-4602-b111-ba68bdaf6ccf)
+![image](https://github.com/user-attachments/assets/a635ecee-6be3-4aa2-a4e2-78b8dc3592a2)
+![image](https://github.com/user-attachments/assets/b59b0452-bb16-4717-92b6-ce77a47cbc76)
+
+-------------------------------------------------------------------------------------------------------------------------------
 
 
 
