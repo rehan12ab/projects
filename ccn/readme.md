@@ -940,3 +940,16 @@ do wr
 - ### ping from log pc to admin pc
 
 ![image](https://github.com/user-attachments/assets/c81a4647-81f8-499c-92a1-fc0332eb3aa7)
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+# When removed the root switch and check for the backup switch to work
+### Steps:
+1. First verify which switch is root and which is backup.
+2. Then remove the root switch.
+3. Then check whether the backup switch work or not.
+
+### For verifying the backup switch work or not:
+
+
