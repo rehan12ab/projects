@@ -951,6 +951,25 @@ do wr
 3. Then check whether the backup switch work or not.
 
 ### For verifying the backup switch work or not:
+
 ### check these below screen shots.
+![image](https://github.com/user-attachments/assets/b7ca9c3f-7b7c-4119-a1b2-76c78125bd5b)
+
+### After removing the root bridge.
+![image](https://github.com/user-attachments/assets/cebe685b-4e03-4df2-87ac-dd537ff02371)
+
+### Now first refresh the DHCP
+![image](https://github.com/user-attachments/assets/a3c1d892-4d2c-4144-86be-c2208fa88470)
+
+### Now pinging customer department from logistic department.
+
+### pinging on cmd and also sending packet for verification on realtime.
+![image](https://github.com/user-attachments/assets/51b8b99b-9578-483b-b539-9c5f77b11036)
+![image](https://github.com/user-attachments/assets/66070739-a97b-40c1-93e7-520b5a8a10d8)
+
+
+
+
+
 
 
