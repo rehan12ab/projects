@@ -811,3 +811,115 @@ do wr
 --------------------------------------------------------------------------------------------
 # 8- Inter VLAN routing on 13 switches plus IP DHCP helper address
 
+###  FIRST ON DO 1 & 2 L3 SWITCH
+```bash
+vlan 10
+vlan 20
+vlan 30
+vlan 40
+vlan 50
+vlan 60
+
+int vlan 10
+no shutdown
+ip add 192.168.10.1 255.255.255.192
+ip helper-address 192.168.12.196
+exit
+
+int vlan 20
+no shutdown
+ip add 192.168.10.65 255.255.255.192
+ip helper-address 192.168.12.196
+exit
+
+int vlan 30
+no shutdown
+ip add 192.168.10.129 255.255.255.192
+ip helper-address 192.168.12.196
+exit
+
+
+
+int vlan 40
+no shutdown
+ip add 192.168.10.193 255.255.255.192
+ip helper-address 192.168.12.196
+exit
+
+int vlan 50
+no shutdown
+ip add 192.168.11.1 255.255.255.192
+ip helper-address 192.168.12.196
+exit
+
+int vlan 60
+no shutdown
+ip add 192.168.11.65 255.255.255.192
+ip helper-address 192.168.12.196
+exit
+
+do wr
+```
+![image](https://github.com/user-attachments/assets/22660c9e-b7af-49b9-af73-8861817ef153)
+![image](https://github.com/user-attachments/assets/adcc4fc1-b3ad-4390-bc76-7f103cd88775)
+
+
+###  FIRST ON DO 3 & 4 L3 SWITCH
+
+```bash
+vlan 70
+vlan 80
+vlan 90
+vlan 100
+vlan 110
+vlan 120
+
+int vlan 70
+no shutdown
+ip add 192.168.11.129 255.255.255.192
+ip helper-address 192.168.12.196
+exit
+
+int vlan 80
+no shutdown
+ip add 192.168.11.193 255.255.255.192
+ip helper-address 192.168.12.196
+exit
+
+int vlan 90
+no shutdown
+ip add 192.168.12.1 255.255.255.192
+ip helper-address 192.168.12.196
+exit
+
+
+
+int vlan 100
+no shutdown
+ip add 192.168.12.65 255.255.255.192
+ip helper-address 192.168.12.196
+exit
+
+int vlan 110
+no shutdown
+ip add 192.168.12.129 255.255.255.192
+ip helper-address 192.168.12.196
+exit
+
+int vlan 120
+no shutdown
+ip add 192.168.12.193 255.255.255.192
+exit
+
+do wr
+```
+![image](https://github.com/user-attachments/assets/b3d0548d-0ec7-4f75-97d0-bb5a14db1ab5)
+![image](https://github.com/user-attachments/assets/e303951c-b38a-4e6d-848b-ae7f39da3c54)
+
+
+
+
+
+--------------------------------------------------------------------------------------------
+# 9- Wireless networking configuration
+
