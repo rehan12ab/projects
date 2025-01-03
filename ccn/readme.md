@@ -495,5 +495,16 @@ exit
 # Addressing betweeen routers and layer-3 switch
 ![WhatsApp Image 2025-01-03 at 09 03 38_8a38796f](https://github.com/user-attachments/assets/d08074d5-7c2b-4e80-8641-12181656dd58)
 
+# Trunking layer 3 switches
+
+```bash
+int range gig1/0/3-8
+switchport mode trunk
+exit
+do wr
+```
+
+
+
    
 
