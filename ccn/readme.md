@@ -485,7 +485,15 @@ exit
 1. **Admin VLAN 100**: `192.168.12.64/26`
 2. **ICT VLAN 110**: `192.168.12.128/26`
 3. **Server VLAN 120**: `192.168.12.192/26`
+   
+![WhatsApp Image 2025-01-03 at 09 03 38_6fcb9796](https://github.com/user-attachments/assets/d57dcf74-0747-423a-bc61-e0a35f010568)
+![WhatsApp Image 2025-01-03 at 09 03 38_cff4e067](https://github.com/user-attachments/assets/7d3317c0-e114-49dc-90a0-ad90452b07a1)
+
+
+
 
 # Addressing betweeen routers and layer-3 switch
+![WhatsApp Image 2025-01-03 at 09 03 38_8a38796f](https://github.com/user-attachments/assets/d08074d5-7c2b-4e80-8641-12181656dd58)
 
+   
 
