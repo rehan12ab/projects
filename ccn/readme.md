@@ -951,5 +951,6 @@ do wr
 3. Then check whether the backup switch work or not.
 
 ### For verifying the backup switch work or not:
+### check these below screen shots.
 
 
