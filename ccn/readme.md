@@ -587,13 +587,16 @@ exit
 
 -------------------------------------------------------------------------------------------------------------------------------
 
-# Assigning ip address Floor 1 Routers
+# Assigning ip address Floor 1 Routers(gig) and serial port
 int gig0/1 
 ip address 10.10.10.2 255.255.255.252
 exit
 int gig0/2
 ip address 10.10.10.6 255.255.255.252
 exit
+int gig0/0
+ip address 10.10.10.29 255.255.255.252
+
 do wr
 
 
