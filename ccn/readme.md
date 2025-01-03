@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/b9b0a46b-39aa-4f8c-a782-54570b48b0fa)
 # 1-NETWORK DIAGRAM:
 ![image](https://github.com/user-attachments/assets/a7bfc102-26e6-4c04-a2f6-0c61346db6a1)
 
@@ -937,3 +937,6 @@ do wr
 --------------------------------------------------------------------------------------------
 # 10- VERIFY PING THAT NETWORK MAKE SUCCESSFUL
 
+- ### ping from log pc to admin pc
+
+![image](https://github.com/user-attachments/assets/c81a4647-81f8-499c-92a1-fc0332eb3aa7)
