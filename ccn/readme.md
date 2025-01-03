@@ -923,3 +923,17 @@ do wr
 --------------------------------------------------------------------------------------------
 # 9- Wireless networking configuration
 
+- ### THIS TIME ONLY COFIGURING FINANCE ACCESS POINT
+
+![image](https://github.com/user-attachments/assets/be43b5b9-4d97-42dc-9715-e5b2c0331839)
+
+- ### CONNECTING LAPTOP TO FINANCE WIFI
+
+![image](https://github.com/user-attachments/assets/e1c204ca-e389-4230-9979-cbe88daab047)
+
+- ### LAPTOP IS CONNECTED
+![image](https://github.com/user-attachments/assets/85aafb94-4c60-48d3-a2ea-10079083bdd7)
+
+--------------------------------------------------------------------------------------------
+# 10- VERIFY PING THAT NETWORK MAKE SUCCESSFUL
+
