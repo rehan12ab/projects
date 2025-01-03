@@ -495,16 +495,19 @@ exit
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-# Trunking layer 3 switches
+# Trunking layer 3 switches and making (layer 2 part to be layer 3 interface)
 
 ```bash
 int range gig1/0/3-8
 switchport mode trunk
 exit
 do wr
+
+int range gig1/0/1-2
+no swtichport
 ```
 
-![image](https://github.com/user-attachments/assets/58541e04-b0df-4f92-a89d-a23d66fa02af)
+![image](https://github.com/user-attachments/assets/2f28004b-3517-47c4-89db-627a3426cc95)
 ![image](https://github.com/user-attachments/assets/8007c461-a307-4602-b111-ba68bdaf6ccf)
 ![image](https://github.com/user-attachments/assets/a635ecee-6be3-4aa2-a4e2-78b8dc3592a2)
 ![image](https://github.com/user-attachments/assets/b59b0452-bb16-4717-92b6-ce77a47cbc76)
