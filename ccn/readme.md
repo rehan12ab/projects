@@ -589,18 +589,11 @@ exit
 
 # Assigning ip address Floor 1 Routers(gig) and serial port
 
-```bash
-int gig0/1 
-ip address 10.10.10.2 255.255.255.252
-exit
-int gig0/2
-ip address 10.10.10.6 255.255.255.252
-exit
-int gig0/0
-ip address 10.10.10.29 255.255.255.252
+![image](https://github.com/user-attachments/assets/30105aaf-4ad0-4e35-8c00-9630424e340b)
 
-do wr
-```
+![image](https://github.com/user-attachments/assets/93e0ba97-5d56-4529-a11b-9038820b869e)
+
+![image](https://github.com/user-attachments/assets/fe11b4f5-7cc8-4dc2-a26c-5df94adbe595)
 
 
 
