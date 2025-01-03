@@ -551,14 +551,16 @@ no swtichport
 exit
 
 int range gig1/0/1
-ip address 10.10.10.1 255.255.255.252
+ip address 10.10.10.41 255.255.255.252
 exit
 int range gig1/0/2
-ip address 10.10.10.9 255.255.255.252
+ip address 10.10.10.45 255.255.255.252
 exit
 ```
 
 ![image](https://github.com/user-attachments/assets/a635ecee-6be3-4aa2-a4e2-78b8dc3592a2)
+![image](https://github.com/user-attachments/assets/27ab9746-e64e-4321-b5e9-3dadfa262c61)
+
 
 .Floor 4 Layer 3 swtich
 ```bash
