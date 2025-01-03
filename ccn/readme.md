@@ -537,8 +537,7 @@ exit
 ```
 
 ![image](https://github.com/user-attachments/assets/8007c461-a307-4602-b111-ba68bdaf6ccf)
-![image](https://github.com/user-attachments/assets/0c5fcd27-50bc-4c35-b2a4-20e6d4711c46)
-
+![image](https://github.com/user-attachments/assets/d768f225-ac12-4a48-b3bb-ab2936332660)
 
 .Floor 3 Layer 3 swtich
 ```bash
@@ -573,14 +572,16 @@ no swtichport
 exit
 
 int range gig1/0/1
-ip address 10.10.10.1 255.255.255.252
+ip address 10.10.10.49 255.255.255.252
 exit
 int range gig1/0/2
-ip address 10.10.10.9 255.255.255.252
+ip address 10.10.10.53 255.255.255.252
 exit
 ```
 
 ![image](https://github.com/user-attachments/assets/b59b0452-bb16-4717-92b6-ce77a47cbc76)
+![image](https://github.com/user-attachments/assets/78939388-0c53-4c95-8b28-539b01af4d39)
+
 
 -------------------------------------------------------------------------------------------------------------------------------
 
