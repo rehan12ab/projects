@@ -497,6 +497,7 @@ exit
 
 # Trunking layer 3 switches and making (layer 2 part to be layer 3 interface)
 
+.Floor 1 Layer 3 swtich
 ```bash
 int range gig1/0/3-8
 switchport mode trunk
@@ -505,12 +506,80 @@ do wr
 
 int range gig1/0/1-2
 no swtichport
+exit
 
+int range gig1/0/1
+ip address 10.10.10.1 255.255.255.252
+exit
+int range gig1/0/2
+ip address 10.10.10.9 255.255.255.252
+exit
+```
+![image](https://github.com/user-attachments/assets/3bb7143f-3ee8-4be0-bded-1c842a42bd44)
+
+.Floor 2 Layer 3 swtich
+```bash
+int range gig1/0/3-8
+switchport mode trunk
+exit
+do wr
+
+int range gig1/0/1-2
+no swtichport
+exit
+
+int range gig1/0/1
+ip address 10.10.10.13 255.255.255.252
+exit
+int range gig1/0/2
+ip address 10.10.10.5 255.255.255.252
+exit
 ```
 
-![image](https://github.com/user-attachments/assets/3bb7143f-3ee8-4be0-bded-1c842a42bd44)
 ![image](https://github.com/user-attachments/assets/8007c461-a307-4602-b111-ba68bdaf6ccf)
+![image](https://github.com/user-attachments/assets/0c5fcd27-50bc-4c35-b2a4-20e6d4711c46)
+
+
+.Floor 3 Layer 3 swtich
+```bash
+int range gig1/0/3-8
+switchport mode trunk
+exit
+do wr
+
+int range gig1/0/1-2
+no swtichport
+exit
+
+int range gig1/0/1
+ip address 10.10.10.1 255.255.255.252
+exit
+int range gig1/0/2
+ip address 10.10.10.9 255.255.255.252
+exit
+```
+
 ![image](https://github.com/user-attachments/assets/a635ecee-6be3-4aa2-a4e2-78b8dc3592a2)
+
+.Floor 4 Layer 3 swtich
+```bash
+int range gig1/0/3-8
+switchport mode trunk
+exit
+do wr
+
+int range gig1/0/1-2
+no swtichport
+exit
+
+int range gig1/0/1
+ip address 10.10.10.1 255.255.255.252
+exit
+int range gig1/0/2
+ip address 10.10.10.9 255.255.255.252
+exit
+```
+
 ![image](https://github.com/user-attachments/assets/b59b0452-bb16-4717-92b6-ce77a47cbc76)
 
 -------------------------------------------------------------------------------------------------------------------------------
